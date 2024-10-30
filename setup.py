@@ -199,7 +199,9 @@ def main():
             "-DENABLE_FAST_MATH=1",
             "-DCUDA_FAST_MATH=1",
             "-DWITH_CUBLAS=1",
+            "-DWITH_CUDA=ON",
             "-DOPENCV_DNN_CUDA=ON",
+            "-DCUDA_ARCH_BIN=8.9",
         ]
         + (
             # CMake flags for windows/arm64 build
