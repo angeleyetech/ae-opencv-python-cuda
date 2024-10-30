@@ -196,6 +196,10 @@ def main():
             "-DBUILD_DOCS=OFF",
             "-DPYTHON3_LIMITED_API=ON",
             "-DBUILD_OPENEXR=ON",
+            "-DENABLE_FAST_MATH=1",
+            "-DCUDA_FAST_MATH=1",
+            "-DWITH_CUBLAS=1",
+            "-DOPENCV_DNN_CUDA=ON",
         ]
         + (
             # CMake flags for windows/arm64 build
