@@ -281,7 +281,7 @@ def main():
         version=package_version,
         url="https://github.com/opencv/opencv-python",
         license="Apache 2.0",
-        description="Wrapper package for OpenCV python bindings.",
+        description="Wrapper package for OpenCV python bindings with CUDA enable v12.5.",
         long_description=long_description,
         long_description_content_type="text/markdown",
         packages=packages,
