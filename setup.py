@@ -286,10 +286,10 @@ def main():
         long_description_content_type="text/markdown",
         packages=packages,
         package_data=package_data,
-        maintainer="OpenCV Team",
+        maintainer="Angelye Srl Team",
         ext_modules=EmptyListWithLength(),
         install_requires=install_requires,
-        python_requires=">=3.6",
+        python_requires=">=3.10",
         classifiers=[
             "Development Status :: 5 - Production/Stable",
             "Environment :: Console",
